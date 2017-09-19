@@ -34,7 +34,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                 send.setEnabled(i > 0);
-                if (i == 1) {
+                if(i == 0){
+                    kilometers.setVisibility(View.GONE);
+                    hours.setVisibility(View.GONE);
+                    power.setVisibility(View.GONE);
+                } else if (i == 1) {
                     // car
                     kilometers.setVisibility(View.VISIBLE);
                     hours.setVisibility(View.GONE);
