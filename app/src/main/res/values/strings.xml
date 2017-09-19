@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AutoBoat</string>
+    <string name="vehicle_type_select">Sélectionnez un type de véhicule&#8230;</string>
+    <string name="vehicle_type_car">Voiture</string>
+    <string name="vehicle_type_boat">Bateau</string>
+    <string name="vehicle_type_moto">Moto</string>
+    <string name="brand">Marque</string>
+    <string name="model">Modèle</string>
+    <string name="kilometers">Kilomètres</string>
+    <string name="hours">Nombre d\'heures</string>
+    <string name="send">Envoyer</string>
+    <string name="power">Puissance (en CV)</string>
+</resources>

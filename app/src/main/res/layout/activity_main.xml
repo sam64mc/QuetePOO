@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fr.wcs.poo.MainActivity">
+
+    <Spinner
+        android:id="@+id/vehicle_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/brand" />
+
+    <EditText
+        android:id="@+id/model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/model" />
+
+    <EditText
+        android:id="@+id/kilometers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/kilometers"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hours"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/power"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/send" />
+</LinearLayout>
